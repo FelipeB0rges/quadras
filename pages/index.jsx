@@ -18,6 +18,7 @@ export default function Home() {
                 <Image className="logo " width={200} height={130} justifyContent="center" src={Logo} alt="Picture of the author" />
               </div>
               <TextField id="outlined-basic" type="email" margin="normal" fullWidth label="Login" variant="outlined" />
+              <TextField id="outlined-basic" type="email" margin="normal" fullWidth label="Login" variant="outlined" />
               <TextField id="outlined-basic" type="password" margin="normal" fullWidth label="Senha" variant="outlined" />
               <Button fullWidth variant="contained" color="primary" size="large" margin="normal" endIcon={<SendIcon />}>
                 Entrar
